@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+}
+
+.Fotos {
+    color: whitesmoke;
+}
+
+.Fotos h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rainbow-line {
+    height: 5px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Membro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Info {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.Info h3 {
+    margin: 0;
+}
+
+.Info p {
+    margin: 5px 0;
+}
+
+main img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 6px;
+    color: #036eb6;
+}
